@@ -26,11 +26,11 @@ public class BaseDaoImpl implements BaseDao {
 //			dbConfigProperties.put(key, rb.getString(key));
 //		}
 		
-		dbConfigProperties.put("jdbc_aws_rds_uri", "aws-rdsinstance.cijymcbtncyq.ap-south-1.rds.amazonaws.com");
+		dbConfigProperties.put("jdbc_aws_rds_uri", "aws-***************.amazonaws.com");
 		dbConfigProperties.put("jdbc_rds_user", "prashant");
-		dbConfigProperties.put("jdbc_rds_port", "5432");
-		dbConfigProperties.put("jdbc_rds_dbName", "awspostgresrds");
-		dbConfigProperties.put("jdbc_rds_password", "prashant");
+		dbConfigProperties.put("jdbc_rds_port", "***");
+		dbConfigProperties.put("jdbc_rds_dbName", "****");
+		dbConfigProperties.put("jdbc_rds_password", "****");
 		
 		
 		LOGGER.info("Total Properties configured is : " + dbConfigProperties.size());
